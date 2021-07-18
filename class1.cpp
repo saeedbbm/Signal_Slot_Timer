@@ -12,6 +12,5 @@ void class1::slotFunc2(QString message)
 
 void class1::slotFunc3()
 {
-    qDebug() << "timeout"
-"" << QDateTime::currentDateTime().toString();
+    qDebug() << "timeout" << QDateTime::currentDateTime().toString();
 }
